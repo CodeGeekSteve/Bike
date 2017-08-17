@@ -1,0 +1,147 @@
+
+html{
+  font-size: 18px;
+  color: white;
+}
+
+body{
+line-height: 1.4em;
+font-family: helvetica;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Company Header */
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+.company img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+/* company banner */
+
+
+.banner{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+  width: 100%;
+}
+
+.banner-text{
+  background-color: black;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+.banner-text h4{
+  font-size: 1em;
+  margin:0.25em 0;
+  padding-bottom: 2em;
+}
+
+.banner-text h1{
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+/*navigation bar*/
+
+nav{
+  background-color: firebrick;
+   height: 3rem;
+}
+
+nav ul{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.75em 0;
+font-size: 1.2rem;
+list-style: none;
+}
+
+/*shopping page*/
+
+.products,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 8em;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+}
