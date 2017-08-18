@@ -125,23 +125,22 @@ list-style: none;
   background-color: black;
   color: white;
   padding: 1em 2em;
+  font-size: 1em;
 }
 
-  .product.glasses {
-    display: none;
-  }
+.info span{
+  color: black;
+}
 
-  .product {
-    width: 90%;
-    margin: auto;
-  }
+/* footer */
 
-  .product.watch {
-    display: none;
-  }
+.footer{
+  background-color: black;
+  height: 10rem;
+  margin-top: 3rem;
+}
 
-  .info {
-    width: 90%;
-    margin: 0.5em auto;
-  }
+.footer p{
+  padding-top: 4.5rem;
+  font-size: 1.2em;
 }
